@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/jasper2/tag/getting-started/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/jasper2/" rel="alternate" type="text/html" />
+  <updated>2019-09-22T03:31:02-04:00</updated>
+  <id>http://localhost:4000/jasper2/tag/getting-started/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">East Coweta STEM Academy | </title>
+  
+
+  
+    <subtitle>Promoting STEM inside ECHS</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Managing Ghost users</title>
+      <link href="http://localhost:4000/jasper2/managing-users" rel="alternate" type="text/html" title="Managing Ghost users" />
+      <published>2017-07-27T03:00:00-04:00</published>
+      <updated>2017-07-27T03:00:00-04:00</updated>
+      <id>http://localhost:4000/jasper2/managing-users</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/managing-users">&lt;p&gt;Ghost has a number of different user roles for your team&lt;/p&gt;
+&lt;h3 id=&quot;authors&quot;&gt;Authors&lt;/h3&gt;
+&lt;p&gt;The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are &lt;strong&gt;trusted&lt;/strong&gt; users. If you don't trust users to be allowed to publish their own posts, you shouldn't invite them to Ghost admin.&lt;/p&gt;
+&lt;h3 id=&quot;editors&quot;&gt;Editors&lt;/h3&gt;
+&lt;p&gt;Editors are the 2nd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new authors to the site.&lt;/p&gt;
+&lt;h3 id=&quot;administrators&quot;&gt;Administrators&lt;/h3&gt;
+&lt;p&gt;The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site.&lt;/p&gt;
+&lt;h3 id=&quot;theowner&quot;&gt;The Owner&lt;/h3&gt;
+&lt;p&gt;There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable — for example, billing details, if using Ghost(Pro).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jason</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Getting started" />
+      
+
+      
+        <summary type="html">Ghost has a number of different user roles for your team Authors The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are trusted users. If you don't trust users to be allowed to publish their own posts, you shouldn't invite them to Ghost admin. Editors Editors are the 2nd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new authors to the site. Administrators The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site. The Owner There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable — for example, billing details, if using Ghost(Pro). It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Setting up your own Ghost theme</title>
+      <link href="http://localhost:4000/jasper2/themes" rel="alternate" type="text/html" title="Setting up your own Ghost theme" />
+      <published>2017-07-27T00:00:00-04:00</published>
+      <updated>2017-07-27T00:00:00-04:00</updated>
+      <id>http://localhost:4000/jasper2/themes</id>
+      <content type="html" xml:base="http://localhost:4000/jasper2/themes">&lt;p&gt;Creating a totally custom design for your publication&lt;/p&gt;
+&lt;p&gt;Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code.&lt;/p&gt;
+&lt;p&gt;There are a huge range of both free and premium pre-built themes which you can get from the &lt;a href=&quot;http://marketplace.ghost.org&quot;&gt;Ghost Theme Marketplace&lt;/a&gt;, or you can simply create your own from scratch.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://marketplace.ghost.org&quot;&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/marketplace.jpg&quot; alt=&quot;marketplace&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Anyone can write a completely custom Ghost theme, with just some solid knowledge of HTML and CSS&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ghost themes are written with a templating language called handlebars, which has a bunch of dynamic helpers to insert your data into template files. Like &lt;code&gt;&lt;/code&gt;, for example, outputs the name of the current author.&lt;/p&gt;
+&lt;p&gt;The best way to learn how to write your own Ghost theme is to have a look at &lt;a href=&quot;https://github.com/TryGhost/Casper&quot;&gt;the source code for Casper&lt;/a&gt;, which is heavily commented and should give you a sense of how everything fits together.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;default.hbs&lt;/code&gt; is the main template file, all contexts will load inside this file unless specifically told to use a different template.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;post.hbs&lt;/code&gt; is the file used in the context of viewing a post.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;index.hbs&lt;/code&gt; is the file used in the context of viewing the home page.&lt;/li&gt;
+&lt;li&gt;and so on&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We've got &lt;a href=&quot;http://themes.ghost.org/docs/about&quot;&gt;full and extensive theme documentation&lt;/a&gt; which outlines every template file, context and helper that you can use.&lt;/p&gt;
+&lt;p&gt;If you want to chat with other people making Ghost themes to get any advice or help, there's also a &lt;strong&gt;#themes&lt;/strong&gt; channel in our &lt;a href=&quot;https://slack.ghost.org&quot;&gt;public Slack community&lt;/a&gt; which we always recommend joining!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jason</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Getting started" />
+      
+
+      
+        <summary type="html">Creating a totally custom design for your publication Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code. There are a huge range of both free and premium pre-built themes which you can get from the Ghost Theme Marketplace, or you can simply create your own from scratch. Anyone can write a completely custom Ghost theme, with just some solid knowledge of HTML and CSS Ghost themes are written with a templating language called handlebars, which has a bunch of dynamic helpers to insert your data into template files. Like , for example, outputs the name of the current author. The best way to learn how to write your own Ghost theme is to have a look at the source code for Casper, which is heavily commented and should give you a sense of how everything fits together. default.hbs is the main template file, all contexts will load inside this file unless specifically told to use a different template. post.hbs is the file used in the context of viewing a post. index.hbs is the file used in the context of viewing the home page. and so on We've got full and extensive theme documentation which outlines every template file, context and helper that you can use. If you want to chat with other people making Ghost themes to get any advice or help, there's also a #themes channel in our public Slack community which we always recommend joining!</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
